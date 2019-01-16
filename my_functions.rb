@@ -8,7 +8,6 @@ def add_array_lengths(array_1, array_2)
 
 end
 
-
 def sum_array(numbers)
 
   total_number = 0
@@ -30,4 +29,10 @@ def find_item(array, name)
     end
   end
   return false
+end
+
+
+def get_first_key(wallets)
+  return wallets.keys[0]
+
 end
