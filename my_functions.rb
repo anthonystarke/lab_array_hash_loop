@@ -20,3 +20,13 @@ def sum_array(numbers)
 
   return total_number
 end
+
+def find_item(array, name)
+
+  for item in array
+
+    if item == name
+      return true
+    end
+  end
+end
