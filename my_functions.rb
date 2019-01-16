@@ -29,4 +29,5 @@ def find_item(array, name)
       return true
     end
   end
+  return false
 end
